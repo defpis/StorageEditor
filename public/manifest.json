@@ -1,0 +1,17 @@
+{
+  "name": "StorageEditor",
+  "description": "",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "icons": {
+    "128": "img/icon-128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "img/icon-128.png"
+  },
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "permissions": ["cookies", "activeTab", "scripting"]
+}
